@@ -18,9 +18,9 @@ def receber_dados(dados: DadosProcedimento):
     payload = {
         "chat": {
             "channelId": "unimedaj-whatsapp-555433241462",
-            "contactId": f"55{dados.telefone}"
+            "contactId": "5554984379155"
         },
-        "intentIdOrName": "modelatend",
+        "intentIdOrName": "modeloatendi",
         "variables": {
             "nome": dados.nome,
             "email": dados.email,
