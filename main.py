@@ -26,6 +26,7 @@ def receber_dados(dados: DadosProcedimento):
             "email": dados.email,
             "contato": dados.telefone,
             "guia": dados.procedimento,
+            "procedimento": "procedimento x",
             "motivo": "Solicitação de procedimento"  
             },
     }
