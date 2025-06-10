@@ -25,15 +25,9 @@ def receber_dados(dados: DadosProcedimento):
             "nome": dados.nome,
             "email": dados.email,
             "contato": dados.telefone,
-            "guia": str(dados.procedimento),
-            "motivo": "Solicitação de procedimento"  # ou substitua conforme necessário
-        },
-        "tags": {
-            "tagName": True,
-            "anotherTag": False
-        },
-        "webhookPayload": "string",
-        "postActionIntentIdOrName": "Em manutenção"
+            "guia": dados.procedimento,
+            "motivo": "Solicitação de procedimento"  
+            },
     }
 
     headers = {
